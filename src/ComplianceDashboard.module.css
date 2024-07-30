@@ -1,0 +1,13 @@
+.dashboardContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  

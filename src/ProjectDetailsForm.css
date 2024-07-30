@@ -1,0 +1,21 @@
+/* src/ProjectDetailsForm.css */
+.project-details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* Further reduced gap */
+  }
+  
+  .project-details-form div {
+    margin-bottom: 2px; /* Further reduced margin-bottom */
+  }
+  
+  .project-details-form input[type="text"],
+  .project-details-form input[type="date"],
+  .project-details-form input[type="number"] {
+    width: 100%;
+    padding: 6px; /* Slightly reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  

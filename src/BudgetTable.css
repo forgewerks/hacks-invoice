@@ -1,0 +1,30 @@
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.budget-table th, .budget-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.budget-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.budget-table input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilos para el select con id "mode" */
+#mode {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-left: 10px;
+}

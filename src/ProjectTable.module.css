@@ -1,0 +1,57 @@
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    margin: 40px 0; /* Aumenta el margen para mayor separación */
+  }
+  
+  .table {
+    width: 80%; /* Ajusta el ancho para centrar la tabla */
+    max-width: 1200px; /* Máximo ancho para evitar estiramiento excesivo */
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen correctamente */
+  }
+  
+  .th, .td {
+    padding: 15px; /* Aumenta el padding para mayor espacio */
+    border-bottom: 1px solid #ddd; /* Borde solo en la parte inferior */
+    text-align: left;
+  }
+  
+  .th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333; /* Color de texto más oscuro para mejor legibilidad */
+    text-transform: uppercase; /* Texto en mayúsculas para títulos */
+    letter-spacing: 0.05em; /* Espaciado de letras para títulos */
+  }
+  
+  .tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Aumenta el padding para botones más grandes */
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

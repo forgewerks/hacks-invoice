@@ -1,0 +1,26 @@
+.items-table-container {
+    margin-top: 20px;
+  }
+  
+  .items-table-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .items-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .items-table-container th, .items-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .items-table-container th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .items-table-container tr:last-child td {
+    border-top: 2px solid #000;
+  }

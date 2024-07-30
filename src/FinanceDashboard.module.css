@@ -1,0 +1,27 @@
+.dashboardContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .addButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .addButton:hover {
+    background-color: #45a049;
+  }
+  
